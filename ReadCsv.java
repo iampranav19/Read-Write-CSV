@@ -49,7 +49,7 @@ public class ReadCsv {
 			while((currentLine =br.readLine())!=null)
 			{
 				data=currentLine.split(delimeter);
-				colData.add(data[col]);
+				colData.add(data[columnInCsv]);
 				
 			}
 		} catch (Exception e) {
